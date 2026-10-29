@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgJuara" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <filter id="shadowJ" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgJuara)" rx="16" />
+  
+  <g transform="translate(120, 50)" filter="url(#shadowJ)">
+    <rect width="560" height="350" rx="16" fill="#18181b" stroke="#fcd34d" stroke-width="2" />
+    
+    <!-- Trophy Icon -->
+    <circle cx="280" cy="110" r="50" fill="#fef3c7" stroke="#fbbf24" stroke-width="4" />
+    <!-- Trophy shape -->
+    <path d="M265 85 h30 v25 c0 10 -6 18 -15 18 s-15 -8 -15 -18 z" fill="#d97706" />
+    <path d="M260 90 h-10 c-5 0 -8 4 -8 9 s5 12 10 12 h8" stroke="#d97706" stroke-width="4" fill="none" />
+    <path d="M300 90 h10 c5 0 8 4 8 9 s-5 12 -10 12 h-8" stroke="#d97706" stroke-width="4" fill="none" />
+    <rect x="277" y="128" width="6" height="15" fill="#d97706" />
+    <rect x="268" y="143" width="24" height="6" rx="2" fill="#d97706" />
+    
+    <text x="280" y="195" fill="#fef08a" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="900" text-anchor="middle" letter-spacing="1">JUARA LOMBA VIDEO NARASI</text>
+    <text x="280" y="225" fill="#e4e4e7" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="600" text-anchor="middle">Storytelling • Videography • Voice Over • Video Editing</text>
+    
+    <!-- Highlights list -->
+    <rect x="50" y="250" width="460" height="70" rx="8" fill="#27272a" />
+    <text x="70" y="275" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold">✦ Konsep &amp; Naskah:</text>
+    <text x="200" y="275" fill="#d4d4d8" font-family="'Segoe UI', sans-serif" font-size="12">Pengembangan cerita runut &amp; menggugah emosi</text>
+    <text x="70" y="300" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold">✦ Produksi Visual:</text>
+    <text x="200" y="300" fill="#d4d4d8" font-family="'Segoe UI', sans-serif" font-size="12">Take content mandiri, sinkronisasi audio narasi &amp; transisi</text>
+  </g>
+  <text x="400" y="445" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" text-anchor="middle" letter-spacing="1">PRESTASI KREATIF - JUARA VIDEO NARASI</text>
+</svg>

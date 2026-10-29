@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgCert" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <filter id="shadowCert" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgCert)" rx="16" />
+  
+  <g transform="translate(100, 45)" filter="url(#shadowCert)">
+    <!-- Certificate Paper -->
+    <rect width="600" height="370" rx="12" fill="#fffdfa" stroke="#d4af37" stroke-width="4" />
+    <rect x="15" y="15" width="570" height="340" rx="8" fill="none" stroke="#eab308" stroke-width="1.5" stroke-dasharray="8 4" />
+    
+    <!-- Header -->
+    <text x="300" y="65" fill="#854d0e" font-family="'Times New Roman', serif" font-size="28" font-weight="bold" text-anchor="middle" letter-spacing="2">SERTIFIKAT PENGHARGAAN</text>
+    <text x="300" y="90" fill="#a16207" font-family="'Segoe UI', sans-serif" font-size="12" text-anchor="middle" letter-spacing="3">CERTIFICATE OF ACHIEVEMENT</text>
+    <line x1="200" y1="102" x2="400" y2="102" stroke="#d4af37" stroke-width="2" />
+    
+    <text x="300" y="130" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="13" text-anchor="middle">Diberikan dengan bangga kepada:</text>
+    <text x="300" y="170" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="24" font-weight="900" text-anchor="middle">ANGGRAINI TRIYAS UTAMI</text>
+    
+    <text x="300" y="210" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="13" text-anchor="middle">Atas kontribusi, kreativitas, dan prestasinya dalam</text>
+    <text x="300" y="235" fill="#b45309" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Kompetisi Kreatif Video Narasi &amp; Kepengurusan Organisasi</text>
+    
+    <!-- Golden Seal -->
+    <circle cx="300" cy="295" r="32" fill="#eab308" stroke="#ca8a04" stroke-width="3" />
+    <polygon points="300,273 306,288 322,289 310,300 314,316 300,306 286,316 290,300 278,289 294,288" fill="#ffffff" />
+    
+    <!-- Signatures placeholder -->
+    <line x1="80" y1="310" x2="190" y2="310" stroke="#94a3b8" stroke-width="1.5" />
+    <text x="135" y="328" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle">Ketua Penyelenggara</text>
+    
+    <line x1="410" y1="310" x2="520" y2="310" stroke="#94a3b8" stroke-width="1.5" />
+    <text x="465" y="328" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="11" text-anchor="middle">Dewan Juri</text>
+  </g>
+  <text x="400" y="465" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="bold" text-anchor="middle" letter-spacing="1">DOKUMEN PENGHARGAAN &amp; SERTIFIKASI</text>
+</svg>

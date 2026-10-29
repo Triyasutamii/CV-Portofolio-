@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgTaruna" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="shadowT" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgTaruna)" rx="16" />
+  
+  <g transform="translate(120, 60)" filter="url(#shadowT)">
+    <rect width="560" height="340" rx="16" fill="#ffffff" />
+    <rect width="560" height="60" rx="16" fill="#047857" />
+    <text x="280" y="38" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" text-anchor="middle">DOKUMENTASI KEGIATAN & ORGANISASI KARANG TARUNA</text>
+    
+    <!-- Photo Grid in Frame -->
+    <rect x="30" y="85" width="235" height="150" rx="10" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2" />
+    <circle cx="147" cy="140" r="32" fill="#059669" fill-opacity="0.2" />
+    <!-- Camera icon -->
+    <path d="M135 130 h24 l5 6 h15 a5 5 0 0 1 5 5 v24 a5 5 0 0 1 -5 5 h-44 a5 5 0 0 1 -5 -5 v-24 a5 5 0 0 1 5 -5 z" fill="#059669" />
+    <circle cx="147" cy="148" r="8" fill="#ffffff" />
+    <text x="147" y="215" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" text-anchor="middle">Dokumentasi Liputan Lapangan</text>
+    
+    <rect x="295" y="85" width="235" height="150" rx="10" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2" />
+    <!-- Meeting Icon -->
+    <circle cx="412" cy="140" r="32" fill="#0284c7" fill-opacity="0.2" />
+    <circle cx="412" cy="132" r="12" fill="#0284c7" />
+    <path d="M392 158 c0 -12 8 -18 20 -18 s20 6 20 18" fill="#0284c7" />
+    <text x="412" y="215" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" text-anchor="middle">Administrasi & Rapat Koordinasi</text>
+    
+    <!-- Badge / Status Bar -->
+    <rect x="30" y="260" width="500" height="50" rx="8" fill="#f1f5f9" />
+    <text x="50" y="290" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="bold">Peran: Bendahara, Sekretaris & Divisi Dokumentasi</text>
+    <rect x="420" y="272" width="90" height="26" rx="13" fill="#10b981" />
+    <text x="465" y="289" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle">AKTIF</text>
+  </g>
+  <text x="400" y="445" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" text-anchor="middle" letter-spacing="1">DOKUMENTASI FOTO & ARSIP KARANG TARUNA</text>
+</svg>

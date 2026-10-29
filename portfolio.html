@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumentasi - Anggraini Triyas Utami</title>
+  <meta name="description" content="Arsip dokumentasi kegiatan organisasi Karang Taruna, hasil produksi video editing, dan sertifikat prestasi Anggraini Triyas Utami.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar navbar-expand-lg sticky-top custom-navbar py-2 no-print">
+    <div class="container">
+      <a class="navbar-brand" href="cv.html">
+        <i class="bi bi-file-earmark-person-fill fs-4"></i>
+        <span>Anggraini Triyas Utami</span>
+      </a>
+      
+      <div class="d-flex align-items-center gap-2 order-lg-last">
+        <!-- Theme Toggle Button -->
+        <button id="themeToggleBtn" class="btn-theme-toggle" title="Ganti Mode Gelap/Terang" aria-label="Toggle theme">
+          <i id="themeIcon" class="bi bi-moon-stars-fill text-primary"></i>
+        </button>
+
+        <a href="cv.html" class="btn btn-outline-primary d-none d-sm-inline-flex align-items-center gap-1">
+          <i class="bi bi-person-lines-fill"></i> Lihat CV
+        </a>
+
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item">
+            <a class="nav-link" href="cv.html">
+              <i class="bi bi-house-door me-1"></i> Beranda &amp; CV
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="portfolio.html">
+              <i class="bi bi-folder2-open me-1"></i> Dokumentasi
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontak.html">
+              <i class="bi bi-chat-dots me-1"></i> Kontak &amp; Pesan
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HEADER & BREADCRUMB ==================== -->
+  <header class="py-4 border-bottom" style="background: rgba(255, 255, 255, 0.45); backdrop-filter: blur(15px); border-bottom: 1px solid rgba(255, 255, 255, 0.6) !important;">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-2 small">
+          <li class="breadcrumb-item"><a href="cv.html" class="text-decoration-none fw-bold" style="color: #0369a1;">Beranda CV</a></li>
+          <li class="breadcrumb-item active fw-bold" aria-current="page" style="color: #061a33;">Dokumentasi</li>
+        </ol>
+      </nav>
+      <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div>
+          <h1 class="h2 fw-bolder text-white mb-1" style="text-shadow: 0 2px 12px rgba(0, 210, 255, 0.8), 0 2px 4px rgba(0, 0, 0, 0.5);">Dokumentasi</h1>
+          <p class="mb-0 text-white fw-semibold" style="text-shadow: 0 1px 4px rgba(2, 60, 110, 0.6); opacity: 0.95;">Arsip visual kegiatan organisasi Karang Taruna, kejuaraan video narasi, editing CapCut, dan sertifikat prestasi.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN GALLERY SECTION ==================== -->
+  <main class="container my-5">
+    
+    <!-- SLIDE DOKUMENTASI TERPADU (Semua Kegiatan Menjadi 1 Slide) -->
+    <section class="custom-card mb-5 overflow-hidden">
+      <div class="card-header-styled d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-collection-play-fill text-primary fs-5"></i>
+          <h2 class="h5 mb-0 fw-bold">Slide Dokumentasi Terpadu</h2>
+        </div>
+        <span class="badge badge-custom"><i class="bi bi-eye me-1"></i>Tampilan Slide Otomatis</span>
+      </div>
+      <div class="p-3 p-md-4">
+        <p class="text-secondary small mb-3 fw-semibold">
+          Seluruh arsip kegiatan outdoor, eksplorasi alam, kepengurusan Karang Taruna, serta sertifikasi kejuaraan resmi telah disatukan dalam satu slide dokumentasi interaktif. Klik foto untuk membuka pratinjau penuh.
+        </p>
+
+        <!-- Bootstrap Carousel Slide Dokumentasi -->
+        <div id="carouselDokumentasiPortfolio" class="carousel slide carousel-dokumentasi" data-bs-ride="carousel" data-bs-interval="4500">
+          
+          <!-- Indicators (14 Slides) -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="9" aria-label="Slide 10"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="10" aria-label="Slide 11"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="11" aria-label="Slide 12"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="12" aria-label="Slide 13"></button>
+            <button type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide-to="13" aria-label="Slide 14"></button>
+          </div>
+
+          <!-- Slides -->
+          <div class="carousel-inner">
+            
+            <!-- Slide 1: FOTO PERTAMA (Tari Katumbiri - Wisuda Perpisahan) -->
+            <div class="carousel-item active">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Foto Pertama: Tarian Katumbiri', 'assets/img/tari/tari-1-katumbiri-wisuda.jpg', 'Sedang mengisi acara wisuda perpisahan dengan menarikan tarian Katumbiri.', 'Seni Tari')">
+                <img src="assets/img/tari/tari-1-katumbiri-wisuda.jpg" alt="Foto Pertama - Tari Katumbiri Wisuda" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-stars me-1"></i>Foto Pertama • Seni Tari</span>
+                <h5>Tarian Katumbiri – Acara Wisuda Perpisahan</h5>
+                <p>Sedang mengisi acara wisuda perpisahan dengan menarikan tarian Katumbiri.</p>
+              </div>
+            </div>
+
+            <!-- Slide 2: FOTO KEDUA (Tari Renggong Nyentrik - Lomba Sekolah Jakarta) -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Foto Kedua: Tarian Renggong Nyentrik (Lomba Jakarta)', 'assets/img/tari/tari-2-renggong-sekolah.jpg', 'Sedang lomba di sebuah sekolah di Jakarta dengan menarikan tarian Renggong Nyentrik.', 'Kompetisi Tari')">
+                <img src="assets/img/tari/tari-2-renggong-sekolah.jpg" alt="Foto Kedua - Tari Renggong Nyentrik Jakarta" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-trophy me-1"></i>Foto Kedua • Kompetisi Tari</span>
+                <h5>Tarian Renggong Nyentrik – Lomba di Sekolah Jakarta</h5>
+                <p>Sedang lomba di sebuah sekolah di Jakarta dengan menarikan tarian Renggong Nyentrik.</p>
+              </div>
+            </div>
+
+            <!-- Slide 3: FOTO KETIGA (Tari Renggong Nyentrik - Lomba Online) -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Foto Ketiga: Tarian Renggong Nyentrik (Lomba Online)', 'assets/img/tari/tari-3-renggong-online.jpg', 'Sedang lomba secara online dengan menarikan tarian Renggong Nyentrik.', 'Lomba Online')">
+                <img src="assets/img/tari/tari-3-renggong-online.jpg" alt="Foto Ketiga - Tari Renggong Nyentrik Online" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-camera-video me-1"></i>Foto Ketiga • Lomba Tari Online</span>
+                <h5>Tarian Renggong Nyentrik – Kompetisi Online</h5>
+                <p>Sedang lomba secara online dengan menarikan tarian Renggong Nyentrik.</p>
+              </div>
+            </div>
+
+            <!-- Slide 4: FOTO KEEMPAT (Tari Sekar Puri - Pernikahan) -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Foto Keempat: Tarian Sekar Puri', 'assets/img/tari/tari-4-sekar-puri-nikah.jpg', 'Sedang mengisi acara pernikahan dengan menarikan tarian Sekar Puri.', 'Pertunjukan Tari')">
+                <img src="assets/img/tari/tari-4-sekar-puri-nikah.jpg" alt="Foto Keempat - Tari Sekar Puri Pernikahan" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-flower1 me-1"></i>Foto Keempat • Pertunjukan Tari</span>
+                <h5>Tarian Sekar Puri – Acara Pernikahan</h5>
+                <p>Sedang mengisi acara pernikahan dengan menarikan tarian Sekar Puri.</p>
+              </div>
+            </div>
+
+            <!-- Slide 5: FOTO KELIMA (Juara 2 Nasional Tari Enggang Kalimantan) -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Foto Kelima: Juara 2 Tingkat Nasional Tari Enggang Kalimantan', 'assets/img/tari/tari-5-enggang-juara2.jpg', 'Dokumentasi setelah lomba Juara 2 Tingkat Nasional dengan tarian Enggang Kalimantan.', 'Prestasi Nasional')">
+                <img src="assets/img/tari/tari-5-enggang-juara2.jpg" alt="Foto Kelima - Juara 2 Nasional Tari Enggang" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-trophy-fill text-warning me-1"></i>Foto Kelima • Juara 2 Nasional</span>
+                <h5>Dokumentasi Juara 2 Tingkat Nasional – Tari Enggang Kalimantan</h5>
+                <p>Dokumentasi setelah lomba Juara 2 Tingkat Nasional dengan tarian Enggang Kalimantan.</p>
+              </div>
+            </div>
+
+            <!-- Slide 6: Kegiatan Pos 1 Mencrang -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Dokumentasi Kegiatan Outdoor (Pos 1 Mencrang)', 'assets/img/kegiatan/kegiatan-1-pos1.jpg', 'Dokumentasi kegiatan pendakian dan latihan fisik di Pos 1 Mencrang. Melatih ketahanan fisik, kemandirian, dan kedisiplinan.', 'Kegiatan Outdoor')">
+                <img src="assets/img/kegiatan/kegiatan-1-pos1.jpg" alt="Pos 1 Mencrang" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-compass me-1"></i>Kegiatan Outdoor</span>
+                <h5>Dokumentasi Kegiatan di Pos 1 Mencrang</h5>
+                <p>Latihan ketahanan fisik, fokus, dan kepemimpinan di alam terbuka.</p>
+              </div>
+            </div>
+
+            <!-- Slide 7: Kawah Ratu - Solo -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Eksplorasi Kawasan Kawah Ratu', 'assets/img/kegiatan/kegiatan-3-kawah-solo.jpg', 'Dokumentasi perjalanan mandiri di kawasan vulkanik Kawah Ratu 1437 MDPL.', 'Eksplorasi Alam')">
+                <img src="assets/img/kegiatan/kegiatan-3-kawah-solo.jpg" alt="Eksplorasi Kawah Ratu" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-geo-alt me-1"></i>Eksplorasi Alam</span>
+                <h5>Eksplorasi Lapangan Kawah Ratu</h5>
+                <p>Dokumentasi observasi alam dan ketahanan di jalur kawah aktif.</p>
+              </div>
+            </div>
+
+            <!-- Slide 8: Kawah Ratu - Tim -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Kerjasama & Kebersamaan Tim di Kawah Ratu 1437 MDPL', 'assets/img/kegiatan/kegiatan-4-kawah-tim.jpg', 'Dokumentasi kerjasama tim dan kekompakan kelompok mencapai puncak Kawah Ratu 1437 MDPL.', 'Kolaborasi Tim')">
+                <img src="assets/img/kegiatan/kegiatan-4-kawah-tim.jpg" alt="Tim Kawah Ratu 1437 MDPL" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-people-fill me-1"></i>Teamwork &amp; Kolaborasi</span>
+                <h5>Kebersamaan Tim di Kawah Ratu 1437 MDPL</h5>
+                <p>Membangun sinergi, solidaritas, dan kerjasama tim mencapai tujuan bersama.</p>
+              </div>
+            </div>
+
+            <!-- Slide 9: Panorama Alam -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Panorama Alam Pegunungan', 'assets/img/kegiatan/kegiatan-2-alam.jpg', 'Dokumentasi lanskap pegunungan dan panorama alam terbuka sepanjang jalur pendakian.', 'Fotografi Alam')">
+                <img src="assets/img/kegiatan/kegiatan-2-alam.jpg" alt="Panorama Alam Pegunungan" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-camera me-1"></i>Fotografi Lanskap</span>
+                <h5>Panorama Lanskap Alam Terbuka</h5>
+                <p>Dokumentasi keindahan alam dan sudut pandang visual pegunungan.</p>
+              </div>
+            </div>
+
+            <!-- Slide 10: Piagam Juara 2 Tari Nusantara 2025 -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Juara 2 Lomba Tari Kreasi Nusantara 2025', 'assets/img/certificates/cert-tari-2025.jpg', 'Piagam Penghargaan Juara 2 Kelompok/Group Kategori SMA pada Lomba Tari Kreasi Nusantara 2025 oleh SVARAETNIKA dan Suku Dinas Kebudayaan Jakarta Utara di Bay Walk Mall Pluit.', 'Piagam Penghargaan')">
+                <img src="assets/img/certificates/cert-tari-2025.jpg" alt="Piagam Juara 2 Tari Nusantara 2025" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-trophy-fill text-warning me-1"></i>Piagam Juara 2</span>
+                <h5>Juara 2 Lomba Tari Kreasi Nusantara 2025</h5>
+                <p>Sudin Kebudayaan Kota Adm. Jakarta Utara &amp; Svaraetnika (Bay Walk Mall).</p>
+              </div>
+            </div>
+
+            <!-- Slide 11: Piagam Juara II Tari Enggang Tingkat Nasional 2023 -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Juara II Tari Enggang Tingkat Nasional', 'assets/img/certificates/cert-tari-enggang-2023.jpg', 'Piagam Penghargaan Juara II Tari Enggang pada Lomba Tari Kreasi Daerah Nusantara Tingkat Nasional yang diselenggarakan oleh Yayasan Putri Nawangsari Indonesia di Plasa Cibubur, Agustus 2023.', 'Piagam Penghargaan')">
+                <img src="assets/img/certificates/cert-tari-enggang-2023.jpg" alt="Piagam Juara II Tari Enggang 2023" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-trophy-fill text-warning me-1"></i>Tingkat Nasional</span>
+                <h5>Juara II Tari Enggang Tingkat Nasional</h5>
+                <p>Yayasan Putri Nawangsari Indonesia (Plasa Cibubur, Agustus 2023).</p>
+              </div>
+            </div>
+
+            <!-- Slide 12: Sertifikat Cyber Security FTI Budi Luhur -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Kuliah Umum Cyber Security', 'assets/img/certificates/cert-cybersecurity-2025.jpg', 'Sertifikat Peserta Kuliah Umum Cyber Security: Guardians of Cyber Galaxy oleh Fakultas Teknologi Informasi Universitas Budi Luhur, 17 Oktober 2025.', 'Sertifikat IT')">
+                <img src="assets/img/certificates/cert-cybersecurity-2025.jpg" alt="Sertifikat Cyber Security Budi Luhur" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-shield-check text-info me-1"></i>Sertifikat Akademik IT</span>
+                <h5>Cyber Security: Guardians of Cyber Galaxy</h5>
+                <p>Fakultas Teknologi Informasi Universitas Budi Luhur (17 Oktober 2025).</p>
+              </div>
+            </div>
+
+            <!-- Slide 13: Sertifikat Cloud Openstack ID-Networkers -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Webinar Cloud Journey with Openstack', 'assets/img/certificates/cert-cloud-openstack-2025.jpg', 'Sertifikat Peserta Webinar Own Your Cloud Journey with Openstack oleh ID-Networkers (Indonesian IT Expert Factory), 20 Oktober 2025.', 'Sertifikat Cloud')">
+                <img src="assets/img/certificates/cert-cloud-openstack-2025.jpg" alt="Sertifikat Cloud Openstack IDN" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-cloud-check text-primary me-1"></i>Cloud Computing</span>
+                <h5>Own Your Cloud Journey with Openstack</h5>
+                <p>ID-Networkers (Indonesian IT Expert Factory - IDN.ID, 20 Oktober 2025).</p>
+              </div>
+            </div>
+
+            <!-- Slide 14: Sertifikat Juara 3 Video Narasi SMAN 6 -->
+            <div class="carousel-item">
+              <div class="carousel-slide-img-wrapper" onclick="viewImageLightbox('Juara 3 Lomba Video Narasi', 'assets/img/certificates/cert-video-narasi-2023.jpg', 'Sertifikat Penghargaan Juara 3 Lomba Video Narasi Hari Pahlawan yang diselenggarakan oleh SMAN 6 Kota Tangerang, 10 November 2023.', 'Prestasi Video')">
+                <img src="assets/img/certificates/cert-video-narasi-2023.jpg" alt="Sertifikat Juara 3 Video Narasi" loading="lazy">
+              </div>
+              <div class="carousel-dokumentasi-caption">
+                <span class="badge badge-custom mb-1"><i class="bi bi-camera-reels text-warning me-1"></i>Prestasi Video</span>
+                <h5>Juara 3 Lomba Video Narasi Hari Pahlawan</h5>
+                <p>SMAN 6 Kota Tangerang (10 November 2023).</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide="prev" title="Slide Sebelumnya">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Sebelumnya</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselDokumentasiPortfolio" data-bs-slide="next" title="Slide Berikutnya">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Berikutnya</span>
+          </button>
+        </div>
+
+        <!-- Quick Slide Jump Navigation Pills -->
+        <div class="d-flex flex-wrap justify-content-center gap-2 mt-3 no-print">
+          <button class="btn btn-sm btn-secondary-custom py-1 px-3" onclick="bootstrap.Carousel.getInstance(document.getElementById('carouselDokumentasiPortfolio')).to(0)">
+            <i class="bi bi-stars me-1"></i> Foto 1 (Katumbiri)
+          </button>
+          <button class="btn btn-sm btn-secondary-custom py-1 px-3" onclick="bootstrap.Carousel.getInstance(document.getElementById('carouselDokumentasiPortfolio')).to(1)">
+            <i class="bi bi-trophy me-1"></i> Foto 2 (Renggong Jakarta)
+          </button>
+          <button class="btn btn-sm btn-secondary-custom py-1 px-3" onclick="bootstrap.Carousel.getInstance(document.getElementById('carouselDokumentasiPortfolio')).to(4)">
+            <i class="bi bi-award me-1"></i> Foto 5 (Juara 2 Nasional)
+          </button>
+          <button class="btn btn-sm btn-secondary-custom py-1 px-3" onclick="bootstrap.Carousel.getInstance(document.getElementById('carouselDokumentasiPortfolio')).to(5)">
+            <i class="bi bi-compass me-1"></i> Kegiatan Alam (Pos 1)
+          </button>
+          <button class="btn btn-sm btn-secondary-custom py-1 px-3" onclick="bootstrap.Carousel.getInstance(document.getElementById('carouselDokumentasiPortfolio')).to(9)">
+            <i class="bi bi-file-earmark-check me-1"></i> Piagam &amp; Sertifikat
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SHOWCASE VIDEO KARYA ==================== -->
+    <section class="custom-card mb-5 overflow-hidden">
+      <div class="card-header-styled d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <div class="d-flex align-items-center gap-2">
+          <i class="bi bi-camera-reels-fill text-primary fs-5"></i>
+          <h2 class="h5 mb-0 fw-bold">Karya Video Editing (Lomba Video Narasi)</h2>
+        </div>
+        <span class="badge bg-warning text-dark fw-bold"><i class="bi bi-trophy-fill me-1"></i>Juara 3 Kompetisi</span>
+      </div>
+      <div class="p-3 p-md-4">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-7">
+            <div class="video-showcase-container">
+              <video controls playsinline preload="metadata" class="video-custom-player" poster="assets/img/certificates/cert-video-narasi-2023.jpg">
+                <source src="assets/video/video-narasi-lomba.mp4" type="video/mp4">
+                Browser Anda belum mendukung pemutar video HTML5.
+              </video>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="video-info-box h-100 d-flex flex-column justify-content-center">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="video-badge-pill"><i class="bi bi-play-circle-fill"></i> Video Editing</span>
+                <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Karya Orisinal</span>
+              </div>
+              <h4 class="h5 fw-bold text-main mb-2">Video Narasi Hari Pahlawan</h4>
+              <p class="text-secondary small fw-semibold mb-3">
+                Salah satu contoh video editing yang digunakan untuk lomba video narasi.
+              </p>
+              <ul class="text-secondary small ps-3 mb-3 fw-medium">
+                <li><strong>Durasi:</strong> 01:33 Menit (Format 16:9 Widescreen HD 720p).</li>
+                <li><strong>Proses Editing:</strong> Pemotongan ritmis CapCut, penyelarasan alur cerita narasi, pengaturan musik latar (BGM), dan takarir subtitle.</li>
+                <li><strong>Pencapaian:</strong> Meraih Juara 3 Lomba Video Narasi Hari Pahlawan diselenggarakan oleh SMAN 6 Kota Tangerang.</li>
+              </ul>
+              <div>
+                <button class="btn btn-sm btn-outline-primary fw-bold" onclick="viewImageLightbox('Sertifikat Juara 3 Lomba Video Narasi', 'assets/img/certificates/cert-video-narasi-2023.jpg', 'Sertifikat Penghargaan Juara 3 Lomba Video Narasi dalam rangka Hari Pahlawan yang diselenggarakan oleh SMAN 6 Kota Tangerang (10 November 2023).', 'Prestasi Video')">
+                  <i class="bi bi-award me-1"></i> Lihat Piagam Juara 3
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Header Galeri Detail -->
+    <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+      <div>
+        <h3 class="h5 fw-bold text-main mb-1"><i class="bi bi-grid-fill text-primary me-2"></i>Koleksi &amp; Detail Dokumentasi</h3>
+        <p class="text-secondary small mb-0 fw-semibold">Pilih kategori untuk memfilter arsip dokumentasi atau klik foto untuk melihat resolusi penuh.</p>
+      </div>
+    </div>
+
+    <!-- Filter Buttons Bar (Video Karya, Seni Tari, Kegiatan Outdoor, dan Sertifikat) -->
+    <div class="d-flex flex-wrap justify-content-center justify-content-md-start gap-2 mb-4">
+      <button class="filter-btn gallery-filter-btn active" data-filter="all">
+        <i class="bi bi-collection me-1"></i> Semua Dokumentasi
+      </button>
+      <button class="filter-btn gallery-filter-btn" data-filter="video">
+        <i class="bi bi-camera-reels me-1"></i> Karya Video Editing
+      </button>
+      <button class="filter-btn gallery-filter-btn" data-filter="tari">
+        <i class="bi bi-stars me-1"></i> Seni Tari &amp; Prestasi
+      </button>
+      <button class="filter-btn gallery-filter-btn" data-filter="kegiatan">
+        <i class="bi bi-compass me-1"></i> Kegiatan Outdoor
+      </button>
+      <button class="filter-btn gallery-filter-btn" data-filter="sertifikasi">
+        <i class="bi bi-award me-1"></i> Sertifikat Resmi
+      </button>
+    </div>
+
+    <!-- Responsive Columns Grid for Images (View Only) -->
+    <div id="galleryColumnsGrid" class="row">
+      <!-- Gallery items will be populated by gallery.js -->
+    </div>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="custom-footer no-print">
+    <div class="container text-center">
+      <div class="row align-items-center justify-content-between g-3">
+        <div class="col-md-6 text-md-start">
+          <h5 class="fw-bold mb-1 text-primary">Anggraini Triyas Utami</h5>
+          <p class="text-muted small mb-0">Curriculum Vitae &amp; Showcase Portofolio Interaktif • Dibuat dengan CSS &amp; Bootstrap</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3 mb-2">
+            <a href="cv.html" class="text-muted text-decoration-none small">Beranda CV</a>
+            <a href="portfolio.html" class="text-muted text-decoration-none small">Dokumentasi</a>
+            <a href="kontak.html" class="text-muted text-decoration-none small">Hubungi Saya</a>
+          </div>
+          <small class="text-muted">Kota Tangerang, Banten, Indonesia</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top floating button -->
+  <button id="btnBackToTop" class="btn-back-to-top no-print" title="Kembali ke atas">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/water-effects.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/gallery.js"></script>
+</body>
+</html>
